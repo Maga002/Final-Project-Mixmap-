@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendors/pluginCss/calendar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+        <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.css">
+</head>
+
+<body>
+    <!-- Top Header Start  -->
+    <div class="header-comments">
+        <div class="comments ">
+            <div class="col-12 p-0">
+                <div class="all-com">
+                    <div class="ico-left row just-center">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <a class="d-none d-lg-block" href="#">contact@shinetheme.com</a>
+                    </div>
+                    <div class="ico-right row">
+                        <a class="d-none d-md-block" href="#">(000) 999 - 656 -888</a>
+                        <a href="#">Login</a>
+                        <a href="#">Sing Up</a>
+                        <a class="d-none d-lg-block" href="#">USD</a>
+                        <i class="d-none d-lg-block" class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Header End   -->
+    <!-- .Header Start  -->
+    <div class="header-navs">
+        <div class="navs-size">
+            <div class="col-12">
+                <div class="navs-box">
+                    <div class="img d-none d-md-block">
+                        <img src="img/download.svg" alt="#">
+                    </div>
+                    <div class="img-phone row d-sm-block d-lg-none d-md-none">
+                        <div class="open">
+                            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+                        </div>
+                        <img src="img/logo-phone.svg" alt="#">
+                    </div>
+                    <div id="mySidenav" class="slide-menu">
+                        <div class="slide-left">
+                            <button href="javascript:void(0)" class="closebtn" onclick="closeNav()"">
+                                <i class=" fas fa-angle-left"></i>
+                            </button>
+
+                            <button class="accordion">HOME</button>
+                            <button class="accordion">HOTEL</button>
+                            <div class="panel">
+                                <ul class="m-0 p-0">
+                                    <li class="left-line">Listing</li>
+                                    <li>Search Popup Map</li>
+                                    <li>Search Half Map</li>
+                                    <li class="text-primary">Search Full Map</li>
+                                    <li class="left-line">Single Detail</li>
+                                    <li>Booking At The Sidebar</li>
+                                    <li>Booking At The Bottom</li>
+                                    <li>Top Half-Map</li>
+                                    <li>Top Slider Image</li>
+
+                                    <div class="new-comment">
+                                        <li>Background on Top</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <li class="left-line">House</li>
+                                    <li>Top Slider</li>
+                                    <li>Background Header</li>
+                                    <img src="img/download.png" alt="">
+                                </ul>
+                            </div>
+
+                            <button class="accordion">TOUR</button>
+                            <div class="panel">
+                                <ul class="m-0 p-0">
+                                    <li class="left-line">Listing</li>
+                                    <li>Top Search Layout</li>
+                                    <li>Slidebar Search Layout</li>
+                                    <li class="left-line">Single Detaile</li>
+                                    <li>External Booking</li>
+                                    <li>Daily Tour</li>
+                                    <li>Tour Package</li>
+                                    <li>Tour Starttime</li>
+                                    <div class="new-comment">
+                                        <li>Mapbox</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <div class="new-comment">
+                                        <li>Book & Inquiry Form</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <div class="new-comment">
+                                        <li>Inquiry Form</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <img src="img/download.png" alt="">
+                                </ul>
+                            </div>
+                            <button class="accordion">ACTIVITY</button>
+                            <div class="panel">
+                                <ul class="m-0 p-0">
+                                    <li class="left-line">Listing</li>
+                                    <li>Top Search Layout</li>
+                                    <li>Slidebar Search Layout</li>
+                                    <li class="left-line">Single Detaile</li>
+                                    <li>External Booking</li>
+                                    <li>Daily Tour</li>
+                                    <li>Tour Package</li>
+                                    <li>Tour Starttime</li>
+                                    <div class="new-comment">
+                                        <li>Mapbox</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <div class="new-comment">
+                                        <li>Book & Inquiry Form</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <div class="new-comment">
+                                        <li>Inquiry Form</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <img src="img/download.png" alt="">
+                                </ul>
+                            </div>
+                            <button class="accordion">Rental</button>
+                            <div class="panel">
+                                <ul class="m-0 p-0">
+                                    <li class="left-line">Listing</li>
+                                    <li>Top Search Layout</li>
+                                    <li>Slidebar Search Layout</li>
+                                    <li class="left-line">Single Detaile</li>
+                                    <li>External Booking</li>
+                                    <li>Daily Tour</li>
+                                    <li>Tour Package</li>
+                                    <li>Tour Starttime</li>
+                                    <div class="new-comment">
+                                        <li>Mapbox</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <div class="new-comment">
+                                        <li>Book & Inquiry Form</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <div class="new-comment">
+                                        <li>Inquiry Form</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <img src="img/download.png" alt="">
+                                </ul>
+                            </div>
+                            <button class="accordion">CAR</button>
+                            <div class="panel">
+                                <ul class="m-0 p-0">
+                                    <li>Car Top Search</li>
+                                    <li>Car Sidebar Search</li>
+                                    <li>Single Style</li>
+                                </ul>
+                            </div><button class="accordion">Pages</button>
+                            <div class="panel">
+                                <ul class="m-0 p-0">
+                                    <li>Author Profile</li>
+                                    <li>Become Local Expert</li>
+                                    <div class="new-comment">
+                                        <li>Destination</li>
+                                        <div class="new">
+                                            <h3>NEW</h3>
+                                        </div>
+                                    </div>
+                                    <li>About Us</li>
+                                    <li>FAQs</li>
+                                    <li>404 Page</li>
+                                    <li>Contacr</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="navs d-none d-lg-block">
+                        <ul>
+
+                            <li><a href="#">HOME</a></li>
+                            <li class="boss-1"><a href="#">HOTEL</a>
+                                <i class="fas fa-angle-down"></i>
+                                <div class="boss1-second">
+                                    <div class="container">
+                                        <div class="into-navs row">
+                                            <div class="col-3">
+                                                <h2 class="left-line">
+                                                    Listing
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Search Popup Map
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Search Half Map
+                                                </h2>
+                                                <hr>
+                                                <h2 class="blue-one">
+                                                    Search Full Map
+                                                </h2>
+                                            </div>
+                                            <div class="col-3">
+                                                <h2 class="left-line">
+                                                    Single Detaile
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Booking At The Sidebar
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Booking At The Bottom
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Top Half-Map
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Top Slider Image
+                                                </h2>
+                                                <hr>
+                                                <div class="new-comment">
+                                                    <h2>
+                                                        Background on Top
+                                                    </h2>
+                                                    <div class="new">
+                                                        <h3>NEW</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <h2 class="left-line">
+                                                    House
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Top Slider
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Background Header
+                                                </h2>
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="img/download.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="boss-2"><a href="#">TOUR</a>
+                                <i class="fas fa-angle-down"></i>
+                                <div class="boss2-second">
+                                    <div class="container">
+                                        <div class="into-navs row">
+                                            <div class="col-4">
+                                                <h2 class="left-line">
+                                                    Listing
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Top Search Layout
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Sidebar Search Layout
+                                                </h2>
+                                            </div>
+                                            <div class="col-4">
+                                                <h2 class="left-line">
+                                                    Single Detaile
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    External Booking
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Daily Tour
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Tour Package
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Tour Starttime
+                                                </h2>
+                                                <hr>
+                                                <div class="new-comment">
+                                                    <h2>
+                                                        Map Box
+                                                    </h2>
+                                                    <div class="new">
+                                                        <h3>NEW</h3>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="new-comment">
+                                                    <h2>
+                                                        Book & Inquiry Form
+                                                    </h2>
+                                                    <div class="new">
+                                                        <h3>NEW</h3>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="new-comment">
+                                                    <h2>
+                                                        Inquiry Form
+                                                    </h2>
+                                                    <div class="new">
+                                                        <h3>NEW</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="img/download.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="boss-3"><a href="#">ACTIVITY</a>
+                                <i class="fas fa-angle-down"></i>
+                                <div class="boss3-second">
+                                    <div class="container">
+                                        <div class="into-navs row">
+                                            <div class="col-4">
+                                                <h2 class="left-line">
+                                                    Listing
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Rental Popup Search
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Rental Half-Map Search
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Rental Full-Map Search
+                                                </h2>
+                                            </div>
+                                            <div class="col-4">
+                                                <h2 class="left-line">
+                                                    Single Detaile
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Full Header
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Image Slider
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Boxed Layout
+                                                </h2>
+
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="img/download.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="boss-4"><a href="#">RENTAL</a>
+                                <i class="fas fa-angle-down"></i>
+                                <div class="boss4-second">
+                                    <div class="container">
+                                        <div class="into-navs row">
+                                            <div class="col-4">
+                                                <h2 class="left-line">
+                                                    Listing
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Rental Popup Search
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Rental Half-Map Search
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Rental Full-Map Search
+                                                </h2>
+                                            </div>
+                                            <div class="col-4">
+                                                <h2 class="left-line">
+                                                    Single Detaile
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Full Header
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Image Slider
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Boxed Layout
+                                                </h2>
+
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="img/download.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="boss-5"><a href="#">CAR</a>
+                                <i class="fas fa-angle-down"></i>
+                                <div class="boss5-second">
+                                    <div class="container">
+                                        <div class="into-navs">
+                                            <div class="comments">
+                                                <h2>
+                                                    Car Top Search
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Car Sidebar Search
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Single Style
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="boss-6"><a href="#">PAGES</a>
+                                <i class="fas fa-angle-down"></i>
+                                <div class="boss6-second">
+                                    <div class="container">
+                                        <div class="into-navs">
+                                            <div class="comments">
+                                                <h2>
+                                                    Author Profile
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Become Local Expert
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Single Style
+                                                </h2>
+                                                <hr>
+                                                <div class="new-comment">
+                                                    <h2>
+                                                        Destination
+                                                    </h2>
+                                                    <div class="new">
+                                                        <h3>NEW</h3>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <h2>
+                                                    About Us
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Fags
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    404 Page
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Contact
+                                                </h2>
+                                                <hr>
+                                                <h2>
+                                                    Blog
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navs-end row flex">
+                        <i class="fas fa-shopping-basket"></i>
+                        <a class="d-none d-xl-block" href="#">Become Local Expert</a>
+                        <i class="fas fa-search  d-none d-xl-block"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1>Search Hotel Full Map</h1>
+            </div>
+            <div class="comments d-md-none d-sm-block">
+                <select class="form-control border-0 text-primary d-sm-block">
+
+                    <div class="all-options">
+                        <option value="">San Francisco</option>
+                        <option value="">California</option>
+                        <option value="">Navada</option>
+                        <option value="">New York City</option>
+                        <option value="">Amsterdam</option>
+                    </div>
+
+                </select>
+            </div>
+            <div class="search-menu  d-none d-lg-block">
+                <div class="container">
+                    <div class="col-12">
+                        <div class="search-center row m-0 p-0">
+                            <div class="col-3 p-0 m-0">
+                                <div class="inn-search d-flex">
+                                    <i class="fas fa-map-marker"></i>
+                                    <div class="comments d-sm-block">
+                                        <p class="pl-3">Destination</p>
+                                        <select class="form-control border-0 text-primary d-sm-block">
+
+                                            <div class="all-options">
+                                                <option value="">San Francisco</option>
+                                                <option value="">California</option>
+                                                <option value="">Navada</option>
+                                                <option value="">New York City</option>
+                                                <option value="">Amsterdam</option>
+                                            </div>
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 m-0">
+                                <div class="inn-search d-flex">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <div class="comments">
+                                        <p>Chech In -Out</p>
+                                        <p class="color"><input class="text-primary" placeholder="dd/mm/yyyy" type="text" id="datepicker"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 m-0">
+                                <div class="inn-search d-flex">
+                                    <i class="fas fa-users"></i>
+                                    <div class="comments">
+                                        <p>Chech In -Out</p>
+                                        <h3>1 Adult -0 Child</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 p-0 m-0">
+                                <div class="inn-search d-flex border-right-0">
+
+                                    <div class="comments">
+                                        <p>Advanced</p>
+                                        <div class="qush d-flex">
+                                            <h3>More</h3>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
+                                    </div>
+                                    <a href="#">SEARCH</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Header End  -->
+    <!-- Map Start  -->
+    <div class="map d-none d-lg-block">
+        <iframe width="100%" height="600px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.665241006307!2d49.84159931482727!3d40.394111379367715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d757b63280d%3A0x1c7f89406ce781e7!2sCompar%20Academy!5e0!3m2!1sen!2s!4v1606151934318!5m2!1sen!2s"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </div>
+    <div class="no-map-menu d-sm-block d-lg-none">
+        <div class="words d-flex m-0">
+            <h1>Date</h1>
+            <h1>Guest</h1>
+            <h1>Map</h1>
+            <h1>Sort</h1>
+            <h1>Filter</h1>
+        </div>
+    </div>
+    <!-- Map End  -->
+    <!-- Hotels Start  -->
+    <div class="hotels pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-lg-block col-lg-3">
+                    <div class="left-down-menu">
+                        <h3>Filter BY</h3>
+
+                        <button class="accordion">Filter Price</button>
+                        <div class="panel">
+                            <div class="price-slider"><span>
+                                    <input type="number" value="5000" min="0" max="120000" />
+                                    <input type="number" value="50000" min="0" max="120000" /></span>
+                                <div class="d-flex p-0">
+
+                                    <input value="25000" min="0" max="120000" step="500" type="range" />
+                                    <input value="50000" min="0" max="120000" step="500" type="range" />
+                                </div>
+
+                                <svg width="100%" height="24">
+                                </svg>
+                            </div>
+
+                        </div>
+
+                        <button class="accordion">Review Score</button>
+                        <div class="panel">
+                            <form action="/action_page.php">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1">Excelent</label><br>
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                <label for="vehicle2">Very Good</label><br>
+                                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                <label for="vehicle3">Average</label><br>
+                                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                <label for="vehicle3">Poor</label><br>
+                                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                <label for="vehicle3">Terible</label><br>
+                            </form>
+                        </div>
+
+                        <button class="accordion">Hotel Star</button>
+                        <div class="panel">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1">
+                                <div class="starts"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2">
+                                <div class="starts"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            </label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3">
+                                <div class="starts"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i></div>
+                            </label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3">
+                                <div class="starts"><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            </label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3">
+                                <div class="starts"><i class="fas fa-star"></i></div>
+                            </label><br>
+                            </form>
+
+                        </div>
+                        <button class="accordion">Facilities</button>
+                        <div class="panel">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1">Air Conditioning</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2">Airpot Transport</label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3">Fitness Center</label><br>
+                            </form>
+                            <div class="more row">
+                                <h4>More</h4>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+
+                        </div>
+                        <button class="accordion">Hotel Themes</button>
+                        <div class="panel">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1">Best Value</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2">Boutique</label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3">Budget</label><br>
+                            </form>
+                            <div class="more row">
+                                <h4>More</h4>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 p-0">
+                    <div class="up-comments row">
+                        <div class="up-left">
+                            <h2>San Francisco: 20 hotels found</h2>
+                        </div>
+                        <div class="up-right row d-none d-md-block">
+                            <h4 class="p-0 m-0">Sort</h4>
+                            <i class="fas fa-list"></i>
+                            <i class="fas fa-qrcode"></i>
+                        </div>
+                    </div>
+                    <div class="hotel-imgs">
+                        <div class="col-12 p-0 m-0 row">
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/hotel-photo.jfif" alt="">
+                                        <h6>Feature</h6>
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>EnVision Hotel Boston</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Boston, MA, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>3.7/5 Very Good</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>3 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$244,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/hotel-2.jfif" alt="">
+                                        <h6>Feature</h6>
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>EnVision Hotel Boston</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Boston, MA, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>3.7/5 Very Good</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>3 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$39,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/hotel3.jfif" alt="">
+                                        <h6>Feature</h6>
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>EnVision Hotel Boston</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Boston, MA, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>3.7/5 Excelent</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>3 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$234,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/hotel4.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>Dylan Hotel</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>New York City, NY, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>3.5/5 Very Good</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>3 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$273,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/download6.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>The May Fair Hotel</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Virginia Beach, VA, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>1.3/5 Poor</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>2 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$128,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/download7.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>Hotel Malte – Astotel</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>New York City, NY, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>2.2/5 Average</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>1 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$130,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/download8.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>Hotel WBF Hommachi</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Ohio, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>1.6/5 Poor</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>1 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$350,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/download9.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>Hyatt Centric Times Square</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Virginia, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>3.6/5 Very Good</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>0 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$0,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/download10.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>Edwardian Kenilworth</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Virginia Beach, VA, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>2.9/5 Very Good</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>2 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$128,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/download11.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>Hotel Ascot Opera</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Delaware, OH, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>4.2/5 Excelent</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>2 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$130,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/download12.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>SLS Las Vegas Hotel</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>New Jersey, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>2.9/5 Average</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>2 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$350,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 p-1 m-0">
+                                <div class="one-hotel">
+                                    <div class="hotel-box">
+                                        <img src="img/download13.jfif" alt="">
+                                        <div class="heard">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="hotel-down">
+                                        <div class="hotel-box-comment">
+                                            <h5>Grand Desert Resort</h5>
+                                            <div class="location d-flex">
+                                                <i class="fas fa-map-marker"></i>
+                                                <p>Delaware, USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="revies d-flex">
+                                            <h6>3/5 Average</h6>
+                                            <i class="fas fa-circle"></i>
+                                            <h5>2 Reviews</h5>
+
+                                        </div>
+                                        <div class="bolt d-flex">
+                                            <i class="fas fa-bolt"></i>
+                                            <h6>From</h6>
+                                            <h5>$273,00</h5>
+                                            <h6>/night</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="all-numbers">
+                                    <div class="numbers row">
+                                        <h5>1</h5>
+                                        <h5>2</h5>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </div>
+                                    <div class="under-number">
+                                        <p>1-12 of 20 Hotels</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hotesl End  -->
+
+    <footer>
+        <div class="footer-grey mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xl-6 mt-5">
+                        <div class="foot-1 d-flex">
+                            <img class="mr-4 d-none d-md-block" src="img/ico_email_subscribe.svg" alt="">
+                            <div class="foot-text m-auto">
+                                <h3>
+                                    Get Updates & More</h3>
+                                <h5>Thoughtful thoughts to your inbox</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6 mt-5">
+                        <input type="text" placeholder="Your Email">
+                        <a href="#">Subscribe</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-end mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-3">
+                        <h6 id="outline" class=" mt-5 pb-3">NEED HELP?</h6>
+                        <div class="tel mb-4 mt-5">
+                            <h6>Call us</h6>
+                            <h4>+ 00 222 44 5678</h4>
+                        </div>
+                        <div class="email mb-4 ">
+                            <h6>Email for</h6>
+                            <h4>hello@yoursite.com
+                            </h4>
+                        </div>
+                        <div class="social mb-4">
+                            <h6>Follow us</h6>
+                            <div class="items-foot">
+                                <i class="fab fa-facebook-f "></i>
+                                <i class="fab fa-twitter "></i>
+                                <i class="fab fa-instagram "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-3 mt-5">
+                        <h6 id="outline" class=" pb-3">Company</h6>
+                        <ul class="p-0 m-0">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Community Blog</a></li>
+                            <li><a href="#">Rewards</a></li>
+                            <li><a href="#">Work with Us</a></li>
+                            <li><a href="#">Meet the Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-3 mt-5">
+                        <h6 id="outline" class="pb-3">Support</h6>
+                        <ul class="p-0 m-0">
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-3 mt-5">
+                        <h6 id="outline" class="pb-3">Setting</h6>
+                        <h6 id="cur">Currencies</h6>
+                        <select id="money">
+                            <option value="mon">AZN</option>
+                            <option value="mon">TL</option>
+                            <option value="mon">USD</option>
+                            <option value="mon">EUR</option>
+                        </select>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <span>Copyright © 2020 by</span>
+                <a href="#">Traveler Theme</a>
+            </div>
+        </div>
+
+    </footer>
+    <div class="remote-control">
+        <i id="item" class="fas fa-filter"></i>
+        <div class="item-control">
+            <ul>
+               <li><a href="../Home Page/Index.html">Home Page</a></li>
+               <li>
+                   <a href="../Search/index.html">Search Page</a>
+               </li>
+               <li><a href="../About us/Index.html">About us</a></li>
+               <li>
+                   <a href="../Blog/Index.html">Blog</a>
+               </li>
+               <li>
+                   <a href="../Contact/Index.html">Contact</a>
+               </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="vendors/jquery/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
